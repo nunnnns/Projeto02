@@ -6,7 +6,7 @@ html{
 }
 body{
     height: 100vh;
-    background-color: black;
+    background-color: rgb(133, 37, 37);
     background-image: url('');
     background-size: cover;
     background-position: center;
@@ -17,11 +17,11 @@ li{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #b4764f;
     font-size: 1rem;
 }
 a:hover{
-    color:brown;
+    color:#874421;
 
 }
 header{
