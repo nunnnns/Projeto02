@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     background-color:#66280a;
-    background-image: url('');
+    background-image: url('https://br.pinterest.com/pin/3940718417811219/sent/?invite_code=973d92928261457f9df1a528dff7f5e0&sender=849702792103901083&sfo=1');
     background-size: cover;
     background-position: center;
 }
@@ -46,10 +46,54 @@ header{
     display: flex;
     gap: 2rem;
     font-size: bold;
+
+}
+.menu:hover{
+    scale: 1.2;
+    
+}
+.dropdown_menu{
+    position: absolute;
+    display: none;
+    top: 60px;
+    width: 300px;
+    background:rgba(255,255,255,0.1) ;
+    backdrop-filter: blur(15px);
+    border-radius:  10px;
+   overflow: hidden;
+
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+
+   
 }
 .entrar {
     align-items: center;
     position: relative;;
-  
+    background-color:#ffd7ab;
+    padding: 0.5rem,2rem;
+    outline: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    
 }
+.entrar:hover{
+    scale: 1.2;
+}
+
+@media(max-width:992px){
+    .menu,
+    .navbar{
+        display: none;
+    }
+    .entrar{
+        display: block;
+    }
+}
+
 
