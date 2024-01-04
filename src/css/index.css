@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     background-color:#66280a;
-    background-image: url('../img/WhatsApp\ Image\ 2024-01-03\ at\ 20.49.08.jpeg');
+    background-image: url('');
     background-size: cover;
     background-position: center;
 }
@@ -39,6 +39,9 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    background: rgba(255,255,255,0.1);
+    border-radius: 1rem;
+
 }
 .navbar .logo a{
     font-size: 1.5rem;
@@ -49,40 +52,89 @@ header{
     gap: 2rem;
     font-size: bold;
 
+
 }
-.menu:hover{
+.menu a li :hover{
     scale: 1.2;
     
 }
-ul li ul.dropdown li{
-display: block;
-
-}
-ul li ul.dropdown{
+ul li ul.dropdown {
     width: auto;
-    background:rgba(255,255,255,0.1) ;
-    color:#b4764f;
     position: absolute;
-    z-index: 999;
-    display: none ;
+    z-index:999 ;
+    display:none ;
+    background: rgba(255,255,255,0.1);
+    color: #863c0e;
+    border-radius: 1rem;
+}
+ul li a .dropdown:hover{
+    background: #ffd7ab;
+
+
+
+}
+ul li:hover ul.dropdown{
+    display: block;
+    
+
 
 }
 
 
-.entrar {
-    align-items: center;
-    position: relative;;
-    background-color:#ffd7ab;
-    padding: 0.5rem,2rem;
-    outline: none;
-    border-radius: 20px;
-    font-size: 2rem;
-    font-weight: bold;
-    cursor: pointer;
+button{
+    font-family: 'open sams', sans-serif;
+    font-weight: 900;
+    font-size:  20px; 
+    color: #66280a;
+    text-decoration: none;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 4rem;
+    cursor:pointer ;
+    
     
 }
-.entrar:hover{
+button:hover{
+    color:#ffd7ab;
     scale: 1.2;
+    
+}
+.footer{
+    width: 100%;
+    color: #66280a;
+    
+}
+.footer_cont{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   background: #ffd7ab;
+   padding: 3rem 3.5rem;
+   display: grid;
+}
+.footer_contato h1{
+ margin-bottom: 0.75rem;
+}
+.footer_social{
+display: flex;
+gap: 2rem;
+margin-top: 1.5rem;
+
+}
+.footer_social .footer_links{
+    height: 2.5rem;
+    width: 2.5rem;
+    color:#66280a;
+    border-radius: 50%;
+}
+#instagram{
+    background: linear-gradient(#7f37c9,#ff2992,#ff9807);
+}
+
+#facebook{
+    background: linear-gradient();
+}
+#whatsapp{
+    background: linear-gradient();
 }
 
 @media(max-width:992px){
