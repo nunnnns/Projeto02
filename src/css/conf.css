@@ -52,29 +52,23 @@ header{
     scale: 1.2;
     
 }
-.dropdown_menu{
-    position: absolute;
-    display: none;
-    top: 60px;
-    width: 300px;
+.dropdown li ul{
+display: block;
+
+}
+ul li ul.dropdown{
+    width: auto;
     background:rgba(255,255,255,0.1) ;
-    backdrop-filter: blur(15px);
-    border-radius:  10px;
-   overflow: hidden;
-   height: 0;
-   transition: height ;
+    color:#b4764f;
+    position: absolute;
+    z-index: 999;
+    display: none ;
 
 }
-.dropdown_menu li{
-    padding: 0.7rem;
-    display: flex;
-    justify-content: center;
+ul li ul.dropdown:hover{
+    background: #66280a;
+}
 
-   
-}
-.dropdown_menu.open{
-    height: 240px;
-}
 .entrar {
     align-items: center;
     position: relative;;
