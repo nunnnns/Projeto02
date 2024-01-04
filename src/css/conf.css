@@ -61,6 +61,8 @@ header{
     backdrop-filter: blur(15px);
     border-radius:  10px;
    overflow: hidden;
+   height: 0;
+   transition: height ;
 
 }
 .dropdown_menu li{
@@ -69,6 +71,9 @@ header{
     justify-content: center;
 
    
+}
+.dropdown_menu.open{
+    height: 240px;
 }
 .entrar {
     align-items: center;
