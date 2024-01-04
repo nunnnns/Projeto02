@@ -17,13 +17,15 @@ li{
 }
 a{
     text-decoration: none;
-    color: #b4764f;
+    color: #863c0e;
     font-size: 1rem;
+    border-radius: 1rem;
 }
 a:hover{
     color:#ffd7ab;
 
 }
+
 header{
     position: relative;
     padding: 0 2rem;
