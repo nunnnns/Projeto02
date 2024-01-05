@@ -106,9 +106,9 @@ button:hover{
 
 nav button {
     padding: 15px;
-    border: 1px solid #FFF;
+    border: 1px solid #261705;
     border-radius: 10px;
-    color: #FFF;
+    color: #261705;
     background-color: transparent;
 }
 
