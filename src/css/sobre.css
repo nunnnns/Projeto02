@@ -81,6 +81,7 @@ efeito img:nth-of-type(1){
 }
 .text3{
     width: 100%;
+    /* margin-top: 50px; */
     height: 100vh;
     background:#f5dcc2
    
@@ -90,13 +91,11 @@ efeito img:nth-of-type(1){
    
     color: #85593d;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 20px;   
 }
 .text3 h1{
-    
     text-align: center;
     color: #863c0e;
-    
-    
+    /* margin-top: 200px; */
 }
 
