@@ -150,6 +150,9 @@ a {
     width: 100px;
     color: #fff;
 }
+.cartoes img{
+    width: 160px;
+}
 
 .nav-list {
     display: flex;
@@ -283,4 +286,7 @@ ul ul {
 
 li:hover>ul {
     display: block;
+}
+.produtos{
+    text-align: left;
 }
