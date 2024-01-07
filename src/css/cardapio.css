@@ -1,25 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #f5dcc2;
 }
-.imagem1{
+
+
+/* menu de navergação */
+.header {
+    background-color: #f5dcc2;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 900vh;
-
-
+    z-index: 1000;
+    /* Garante que o cabeçalho fique sobre o conteúdo */
 }
-.nav{
+
+.nav {
     max-width: 1280px;
-   
+    /*lagura do menu de navegação*/
     height: 70px;
     /*altura do menu*/
     margin-inline: auto;
- 
+    /*centralizar um elemento*/
 
     display: flex;
     /*itens ficarem um do lafo do outro*/
@@ -28,6 +37,12 @@ body{
     align-items: center;
     /*Alinha os itens*/
 }
+
+.logo img {
+    width: 100px;
+    color: #fff;
+}
+
 .nav-list {
     display: flex;
     /*para a lista em linha*/
@@ -38,7 +53,108 @@ body{
 }
 
 .nav-list a {
-    font-size: 18px;/*Altura de fonte*/
-    color: #261705;/*cor da fonte*/
-    padding-block: 16px;/*aumentar a area de click*/
+    font-size: 18px;
+    /*Altura de fonte*/
+    color: #261705;
+    /*cor da fonte*/
+    padding-block: 16px;
+    /*aumentar a area de click*/
+}
+nav button {
+    padding: 15px;
+    border: 1px solid #261705;
+    border-radius: 10px;
+    color: #261705;
+    background-color: transparent;
+}
+
+
+/* =========== sub menu =============== */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: left;
+    /* background-color: rgba(255, 255, 255, 0.9); Cor de fundo com efeito de vidro */
+    backdrop-filter: blur(10px);
+    /* Desfoque no fundo */
+    border: 1px solid #ccc;
+    padding: 25px;
+    width: auto;
+    border-radius: 5px;
+}
+
+li:hover>ul {
+    display: block;
+}
+
+/*========== corpo ================= */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-top: 100px;
+    left: 20%;
+    position: absolute;
+}
+
+.text {
+    width: 500px;
+    height: auto;
+    /* background-color: #f5dcc2; */
+    border-color: #fff;
+    border: 2px solid black;
+    text-align: left;
+    margin-top: 10px;
+    margin: auto;
+
+}
+
+.text h1 {
+    margin-top: 20px;
+    color: #261705;
+    letter-spacing: 2px;
+    line-height: -300px;
+    text-align: center;
+}
+
+.text h3 {
+    line-height: 60px;
+    text-align: left;
+    color: #261705;
+}
+
+.text p {
+    color: #6d5536;
+    margin-top: 10px;
+}
+
+.text img {
+    width: 100px;
+    height: 100px;
+    align-items: left;
+    border-radius: 50px;
+    border: 2px solid #261705;
+}
+
+.text img:hover {
+    transform: scale(1.05);
+    transition: .7s;
+}
+
+.text img p h3 {
+    display: inline-block;
 }

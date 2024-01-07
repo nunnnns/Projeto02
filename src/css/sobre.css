@@ -9,7 +9,7 @@ main{
 }
 .quadro{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     
     
@@ -82,7 +82,7 @@ efeito img:nth-of-type(1){
 .text3{
     width: 100%;
     /* margin-top: 50px; */
-    height: 100vh;
+    height: 20px;
     background:#f5dcc2
    
     
@@ -97,5 +97,24 @@ efeito img:nth-of-type(1){
     text-align: center;
     color: #863c0e;
     /* margin-top: 200px; */
+}
+.text4{
+    margin-top: 300px;
+}
+.container3{
+    width: 100%;
+    height: 40px;
+    background-color: #85593d;
+    text-align: center;
+    color: #f5dcc2;
+}
+.mapa{
+    width: 100%;
+    height: 10vh;
+
+}
+.mapa img{
+    width: 100%;
+   
 }
 
