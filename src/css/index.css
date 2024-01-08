@@ -76,6 +76,7 @@ a {
     
 }
 
+
 .nav-list a {
     font-size: 18px;
     color: #261705;
@@ -117,7 +118,7 @@ ul li i {
     .menu,
     .navbar {
         display: none;
-        
+
     }
 
     .entrar {

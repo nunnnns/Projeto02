@@ -101,7 +101,7 @@ ul ul {
     border-radius: 5px;
 }
 
-li:hover>ul {
+li:hover ul {
     display: block;
 }
 
