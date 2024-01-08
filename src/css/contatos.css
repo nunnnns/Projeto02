@@ -1,8 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #f5dcc2;
+}
+
 .header {
     background-color: #f5dcc2;
     color: #fff;
@@ -13,6 +17,7 @@
     width: 100%;
     z-index: 1000;
 }
+
 nav button {
     padding: 15px;
     border: 1px solid #261705;
@@ -26,6 +31,7 @@ a {
     font-family: sans-serif;
     text-decoration: none;
 }
+
 .nav {
     max-width: 1280px;
     /*lagura do menu de navegação*/
@@ -42,25 +48,30 @@ a {
     /*Alinha os itens*/
 }
 
-    .nav-list {
-        display: flex;
-        /*para a lista em linha*/
-        gap: 32px;
-        /*espaço entre os elementos */
-        list-style: none;
-        /*tirar as bolinhas da lista */
-    }
+.nav-list {
+    display: flex;
+    /*para a lista em linha*/
+    gap: 32px;
+    /*espaço entre os elementos */
+    list-style: none;
+    /*tirar as bolinhas da lista */
+}
 
 
 .nav-list a {
-    font-size: 18px;/*Altura de fonte*/
-    color: #261705;/*cor da fonte*/
-    padding-block: 16px;/*aumentar a area de click*/
+    font-size: 18px;
+    /*Altura de fonte*/
+    color: #261705;
+    /*cor da fonte*/
+    padding-block: 16px;
+    /*aumentar a area de click*/
 }
+
 .logo img {
     width: 100px;
     color: #fff;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -92,12 +103,33 @@ li:hover>ul {
     display: block;
 }
 
-.imagem{
-     width: 100%;
-     height: 20px;
-     border: #261705;
-}
-.container{
-    display: flex;
+.imagem {
+    width: 100%;
+    height: 20px;
     border: #261705;
+    margin-top: 300px;
+}
+
+.container {
+    display: block;
+    border: #261705;
+    width: 100%;
+    
+}
+ h1{
+    text-align: center;
+    display: block;
+    height: 20px;
+    width: 100%;
+    color: #261705;
+}
+.text1{
+    
+    text-align: center;
+    margin-top: 50px;
+    color: #261705;
+}
+.icon{
+    text-align: center;
+    margin-top: 19px;
 }
