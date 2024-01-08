@@ -112,11 +112,12 @@ ul li i {
 }
 
 
-@media(max-width:992px) {
+@media(max-width:821px) {
 
     .menu,
     .navbar {
         display: none;
+        
     }
 
     .entrar {
