@@ -37,6 +37,10 @@ body {
     align-items: center;
     /*Alinha os itens*/
 }
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
 
 .logo img {
     width: 100px;
@@ -116,7 +120,6 @@ li:hover>ul {
     height: auto;
     /* background-color: #f5dcc2; */
     border-color: #fff;
-    border: 2px solid black;
     text-align: left;
     margin-top: 10px;
     margin: auto;
