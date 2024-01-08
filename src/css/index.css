@@ -15,7 +15,7 @@ body {
     background-size: cover;
 }
 
-/* ========= teste de menu nav ==================  */
+
 
 nav button {
     padding: 15px;
@@ -40,23 +40,23 @@ a {
     top: 0;
     width: 100%;
     z-index: 1000;
-    /* Garante que o cabeçalho fique sobre o conteúdo */
+   
 }
 
 .nav {
     max-width: 1280px;
-    /*lagura do menu de navegação*/
+   
     height: 70px;
-    /*altura do menu*/
+    
     margin-inline: auto;
-    /*centralizar um elemento*/
+ 
 
     display: flex;
-    /*itens ficarem um do lafo do outro*/
+   
     justify-content: space-between;
-    /*espaçamento entre itens*/
+   
     align-items: center;
-    /*Alinha os itens*/
+   
 }
 
 .logo img {
@@ -69,19 +69,19 @@ a {
 
 .nav-list {
     display: flex;
-    /*para a lista em linha*/
+   
     gap: 32px;
-    /*espaço entre os elementos */
+   
     list-style: none;
-    /*tirar as bolinhas da lista */
+    
 }
 
 .nav-list a {
-    font-size: 18px;/*Altura de fonte*/
-    color: #261705;/*cor da fonte*/
-    padding-block: 16px;/*aumentar a area de click*/
+    font-size: 18px;
+    color: #261705;
+    padding-block: 16px;
 }
-/*============== corpo do tralho ================= */
+
 main {
     height: 150vh;
 }
@@ -106,53 +106,11 @@ footer a {
     color: #261705;
 }
 
-/* 
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-*/
 
 ul li i {
     height: 35px;
 }
 
-/* .footer_cont{
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   backdrop-filter: blur(10px); 
-   padding: 3rem 3.5rem;
-   display: grid;
-}
-
-.footer_contato h1{
- margin-bottom: 0.75rem;
-}
-.footer_social{
-display: flex;
-gap: 2rem;
-margin-top: 1.5rem;
-
-}
-.footer_social .footer_links{
-    height: 2.5rem;
-    width: 2.5rem;
-    color:#66280a;
-    border-radius: 50%;
-}
-#instagram{
-    background: linear-gradient(#7f37c9,#ff2992,#ff9807);
-}
-
-#facebook{
-    background: linear-gradient();
-}
-#whatsapp{
-    background: linear-gradient();
-} */
 
 @media(max-width:992px) {
 

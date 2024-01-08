@@ -127,9 +127,42 @@ li:hover>ul {
     
     text-align: center;
     margin-top: 50px;
-    color: #261705;
+    color: #863c0e;
 }
 .icon{
     text-align: center;
     margin-top: 19px;
+}
+.text6{
+    text-align: center;
+    color: #261705;
+}
+.text6 p{
+    color: #863c0e;
+    margin-top: 20px;
+}
+footer {
+    background-color: #f5dcc2; 
+    border: 1px solid #ccc;
+    color: #261705;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #261705;
+}
+ul li i {
+    height: 35px;
+}
+.produtos{
+    text-align: left;
+}
+.cartoes img{
+    width: 160px;
 }

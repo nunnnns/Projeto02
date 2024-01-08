@@ -161,3 +161,28 @@ li:hover>ul {
 .text img p h3 {
     display: inline-block;
 }
+footer {
+    background-color: #f5dcc2; 
+    border: 1px solid #ccc;
+    color: #261705;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #261705;
+}
+ul li i {
+    height: 35px;
+}
+.produtos{
+    text-align: left;
+}
+.cartoes img{
+    width: 160px;
+}
